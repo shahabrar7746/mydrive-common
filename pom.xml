@@ -6,7 +6,7 @@
 
     <groupId>com.mydrive</groupId>
     <artifactId>mydrive.commons</artifactId>
-    <version>develop-SNAPSHOT</version>
+    <version>LATEST-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
