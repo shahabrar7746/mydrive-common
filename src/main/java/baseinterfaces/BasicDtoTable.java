@@ -2,7 +2,7 @@ package baseinterfaces;
 
 import base.Entity;
 
-public interface BasicDtoConverter <ENTITY extends HasId, DTO extends Entity>{
+public interface BasicDtoTable<ENTITY extends BasicDtoTable<ENTITY, DTO>, DTO extends Entity> extends HasId{
 
     void updateDto(DTO dto);
 
